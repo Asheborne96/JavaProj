@@ -1,0 +1,67 @@
+public class Sparse 
+{
+    public static int num = 0;
+    public static int m=4;
+    public static int n=3;
+    public static int Arr1[][]={{2,0,0},
+    							{0,4,0},
+    							{0,0,0},
+    							{0,8,0}};
+    							
+    public static void main(String[]args) 
+    {	
+    	Count_Nonzero();
+    	int ArrNew[][]=new int[m][n];
+    	ArrNew[0][0]=m;
+    	ArrNew[0][1]=n;
+    	ArrNew[0][2]=num;
+    	int Row=0;
+    	int i=1;
+    	while (Row<m)
+    		{
+    			int Col=0;
+    			while (Col<n) 
+    				{
+ 			   			if (Arr1[Row][Col] != 0)
+			    			{
+			    				ArrNew[i][0]=Row+1;
+			    				ArrNew[i][1]=Col+1;
+			    				ArrNew[i][2]=Arr1[Row][Col];
+			    				i++;	
+			    			}
+			    			Col++;	
+ 			   		}
+ 			   		Row++;
+	    	}
+        	int r=0;
+ 			while(r<m)
+   				{
+			    	int c=0;
+			    	while(c<n)
+ 					   	{
+				    		System.out.print(ArrNew[r][c]+ " ");
+				    		System.out.print(" ");
+				    		c++;
+				    	}
+				    	r++;
+				    	System.out.println(" ");
+				}
+	}
+    	public static void Count_Nonzero()
+    		{
+		    	int row=0;
+		    	while (row < 4)
+		    		{
+			    		int col = 0;
+			    		while (col < 3)
+				    		{
+				    			if (Arr1[row][col]!=0)
+						   			{
+				    					num++;
+					    			}
+					    			col++;
+				    		}
+				    		row++;
+			    	}
+    		}
+}

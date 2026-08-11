@@ -1,0 +1,42 @@
+import java.util.io.*;
+
+class Node 
+{
+	int iData;   // data for key value 
+	float fData;  // other data
+	Node leftChild; // anak sa kaliwa 
+	Node rightChild; // anak sa kanan
+	
+	public void displayNode()
+	{
+
+	}
+}
+class Tree
+{
+	private Node root; // unang node ng puno
+	
+	public void find (int key){
+	}
+	public void insert (int id, double dd){
+	}
+	public void delete (int id){
+	}
+}
+class TreeApp
+{
+	public static void main (String [] args) throws IOException
+	{
+		int value;
+		Tree tTree = new Tree();
+		
+		tTree.insert(50, 1.5);
+		tTree.insert(25, 1.2);
+		tTree.insert(75, 1.7);
+		tTree.insert(12, 1.5);
+		tTree.insert(37, 1.2);
+	}
+}
+public class BinaryTree {
+	
+}
