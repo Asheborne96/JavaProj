@@ -4,95 +4,94 @@ public class Biodata {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter Position desired: ");
+        System.out.print("Enter Position Desired: ");
         String position = input.nextLine();
 
-        System.out.print("Enter name: ");
+        System.out.print("Enter Name: ");
         String name = input.nextLine();
 
-        System.out.print("Enter address: ");
+        System.out.print("Enter Address: ");
         String address = input.nextLine();
 
-        System.out.print("Enter birthplace: ");
+        System.out.print("Enter Birthplace: ");
         String birthplace = input.nextLine();
 
-        System.out.print("Enter contact number: ");
+        System.out.print("Enter Contact Number: ");
         String contactNumber = input.nextLine();
 
-        System.out.print("Enter age: ");
+        System.out.print("Enter Age: ");
         String age = input.nextLine();
 
-        System.out.print("Enter gender: ");
+        System.out.print("Enter Gender: ");
         String gender = input.nextLine();
 
-        System.out.print("Enter nationality: ");
+        System.out.print("Enter Nationality: ");
         String nationality = input.nextLine();
 
-        System.out.print("Enter email address: ");
+        System.out.print("Enter Email Address: ");
         String email = input.nextLine();
 
-        System.out.print("Enter highest education: ");
+        System.out.print("Enter Highest Education: ");
         String education = input.nextLine();
 
-        System.out.print("Enter date of birth: ");
+        System.out.print("Enter Date of Birth: ");
         String dateOfBirth = input.nextLine();
 
-        System.out.print("Enter marital status: ");
+        System.out.print("Enter Marital Status: ");
         String maritalStatus = input.nextLine();
 
-        System.out.print("Enter religion: ");
+        System.out.print("Enter Religion: ");
         String religion = input.nextLine();
 
-        System.out.print("Enter blood type: ");
+        System.out.print("Enter Blood Type: ");
         String bloodType = input.nextLine();
 
-        System.out.print("Enter height: ");
+        System.out.print("Enter Height: ");
         String height = input.nextLine();
 
-        System.out.print("Enter weight: ");
+        System.out.print("Enter Weight: ");
         String weight = input.nextLine();
 
-        System.out.print("Enter father's name: ");
+        System.out.print("Enter Father's Name: ");
         String fathersName = input.nextLine();
 
-        System.out.print("Enter mother's name: ");
+        System.out.print("Enter Mother's Name: ");
         String mothersName = input.nextLine();
 
-        System.out.print("Enter guardian name: ");
+        System.out.print("Enter Guardian Name: ");
         String guardianName = input.nextLine();
 
-        System.out.print("Enter citizenship: ");
+        System.out.print("Enter Citizenship: ");
         String citizenship = input.nextLine();
 
-        System.out.print("Enter languages spoken: ");
+        System.out.print("Enter Languages Spoken: ");
         String languages = input.nextLine();
 
-        System.out.print("Enter skills: ");
+        System.out.print("Enter Skills: ");
         String skills = input.nextLine();
 
-        System.out.print("Enter hobbies: ");
+        System.out.print("Enter Hobbies: ");
         String hobbies = input.nextLine();
 
-        System.out.print("Enter work experience: ");
+        System.out.print("Enter Work Experience: ");
         String workExperience = input.nextLine();
 
-        System.out.print("Enter years of experience: ");
+        System.out.print("Enter Years of Experience: ");
         String yearsExperience = input.nextLine();
 
-        System.out.print("Enter desired salary: ");
+        System.out.print("Enter Desired Salary: ");
         String desiredSalary = input.nextLine();
 
-        System.out.print("Enter emergency contact name: ");
+        System.out.print("Enter Emergency Contact Name: ");
         String emergencyContactName = input.nextLine();
 
-        System.out.print("Enter emergency contact relation: ");
+        System.out.print("Enter Emergency Contact Relation: ");
         String emergencyContactRelation = input.nextLine();
 
-        System.out.print("Enter emergency contact phone: ");
+        System.out.print("Enter Emergency Contact Phone: ");
         String emergencyContactPhone = input.nextLine();
 
-        System.out.print("Enter LinkedIn profile: ");
-        String linkedIn = input.nextLine();
+        System.out.print("Enter Emergency Contact Email: ");
 
         System.out.println();
         System.out.println("----- Biodata -----");
