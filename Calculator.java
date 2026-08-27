@@ -13,27 +13,31 @@ public class Calculator {
         num1 = input.nextInt();
         System.out.println("Enter Value of Num2: ");
         num2 = input.nextInt();
-        
+
+        System.out.println("==========================================");
+
         result = num1 + num2 ; 
-        System.out.println("The Sum is: " +result);
+        System.out.println("\nThe Sum is: " +result);
         
         result = num1 - num2 ;
-        System.out.println("The Difference is: " +result);
+        System.out.println("\nThe Difference is: " +result);
         
         result = num1 * num2 ;
-        System.out.println("The Product is: " +result);
+        System.out.println("\nThe Product is: " +result);
         
         result = num1 / num2 ;
-        System.out.println("The Quotient is: " +result);
+        System.out.println("\nThe Quotient is: " +result);
         
         result = num1 % num2 ;
-        System.out.println("The Modulus value: " +result);
+        System.out.println("\nThe Modulus value: " +result);
         
         result++ ;
-        System.out.println("The Increment value is: " +result);
+        System.out.println("\nThe Increment value is: " +result);
         
         result-- ;
-        System.out.println("The Decrement value is: " +result);
+        System.out.println("\nThe Decrement value is: " +result);
+
+        System.out.println("\n==========================================");
         
     }
 
